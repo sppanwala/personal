@@ -27,23 +27,12 @@
     <div class="loading">
         <div class="circle"></div>
     </div>
+
     
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-  
-    <!-- JS Plugins  -->
-    <script src="assets/js/jquery.animatedheadline.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/ajax-contact.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/main.js"></script>
 	<script src="https://kit.fontawesome.com/973fdb882d.js" crossorigin="anonymous"></script>
 	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-
+<?php wp_footer(); ?>
 </body>
 
 

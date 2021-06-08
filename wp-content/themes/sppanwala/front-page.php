@@ -1,6 +1,6 @@
 <?php get_header(); ?>
         <!--Home -->
-        <section class="home bg-light vh-100" id="home" style="background-image: url('assets/img/bg/bg.png')">
+        <section class="home bg-light vh-100" id="home" style="background-image: url('<?php bloginfo('template_directory');?>/assets/img/bg/bg.png')">
             <div class="container ">
                 <div class="row ">
                     <div class="col-lg-12 ">
@@ -77,7 +77,7 @@
                 <div class="row mb-50">
                     <!-- <div class="col-lg-5">
                         <div class="hero">
-                            <img src="assets/img/hero.png" alt="shahank-panwala">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/hero.png" alt="shahank-panwala">
                       
                         </div>
                     </div> -->
@@ -353,7 +353,7 @@
                     <!--item -->
                     <div class="item">
                         <div class="image">
-                            <img src="assets/img/works/1.png" alt="juice-ecommerce-website">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/works/1.png" alt="juice-ecommerce-website">
                             <div class="overly" >
                                  <a href="https://www.sppanwala.com/nutrifresh/" target="_nutri"> 
 									 <span class="vw">View Work</span></a>
@@ -370,7 +370,7 @@
                     <!--item -->
                     <div class="item">
                         <div class="image">
-                            <img src="assets/img/works/2.png" alt="ngo-website">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/works/2.png" alt="ngo-website">
                             <div class="overly">
                                 <a href="https://www.sppanwala.com/nutrifresh/" target="_blank">  <span class="vw">View Work</span></a>
                             </div>
@@ -388,9 +388,9 @@
                     <!--item -->
                     <div class="item">
                         <div class="image">
-                            <img src="assets/img/works/10.png" alt="shop-ecommerce-website">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/works/10.png" alt="shop-ecommerce-website">
                             <div class="overly">
-                                <a href="assets/img/works/10.1.png">  <span class="vw">View Work</span></a>
+                                <a href="<?php bloginfo('template_directory');?>/assets/img/works/10.1.png">  <span class="vw">View Work</span></a>
                             </div>
                         </div>
                 
@@ -406,9 +406,9 @@
                     <!--item -->
                     <div class="item">
                         <div class="image">
-                            <img src="assets/img/works/4.png" alt="letter-head">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/works/4.png" alt="letter-head">
                             <div class="overly">
-                                <a href="assets/img/works/4.png" class="view-work"> View Work</a>
+                                <a href="<?php bloginfo('template_directory');?>/assets/img/works/4.png" class="view-work"> View Work</a>
                             </div>
                         </div>
                 
@@ -424,9 +424,9 @@
                     <!--item -->
                     <div class="item">
                         <div class="image">
-                            <img src="assets/img/works/5.jpeg" alt="social-media-post">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/works/5.jpeg" alt="social-media-post">
                             <div class="overly">
-                                <a href="assets/img/works/5.jpeg" class="view-work"> View Work</a>
+                                <a href="<?php bloginfo('template_directory');?>/assets/img/works/5.jpeg" class="view-work"> View Work</a>
                             </div>
                         </div>
                 
@@ -442,9 +442,9 @@
                     <!--item -->
                     <div class="item">
                         <div class="image">
-                            <img src="assets/img/works/6.png" alt="graphic-illustration">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/works/6.png" alt="graphic-illustration">
                             <div class="overly">
-                                <a href="assets/img/works/6.png" class="view-work"> View Work</a>
+                                <a href="<?php bloginfo('template_directory');?>/assets/img/works/6.png" class="view-work"> View Work</a>
                             </div>
                         </div>
                 
@@ -555,8 +555,6 @@
                             <div class="form-group">
                                 <textarea name="query" id="query" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
                             </div>
-							
-							<div class="g-recaptcha" data-sitekey="6Ldz9tsZAAAAALhJLo4qe5ADYNwbCEHaQSH0HTyG"></div><br>
         
                             <button  type="submit" value="send data" name="submit" class="btn-custom">
                                 <span><i class="fas fa-paper-plane"></i></span>
